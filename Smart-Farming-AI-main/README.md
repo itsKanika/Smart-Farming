@@ -32,6 +32,7 @@ and determines:
 <img width="701" height="598" alt="image" src="https://github.com/user-attachments/assets/fcd7510e-afb9-4613-b154-6c6286d1d108" />
 <img width="701" height="528" alt="image" src="https://github.com/user-attachments/assets/36b2cf93-7055-4bae-9a1c-e799fcd044f2" />
 <img width="901" height="312" alt="image" src="https://github.com/user-attachments/assets/e8fe33a5-a5eb-4c0e-91ac-b60b57e8da56" />
+<img width="901" height="724" alt="WhatsApp Image 2025-11-06 at 12 25 08 PM" src="https://github.com/user-attachments/assets/f444c3ba-e6ba-446b-a0ff-dedb2e74e6bc" />
 
 # 🧠 AI Decision Engine
 
