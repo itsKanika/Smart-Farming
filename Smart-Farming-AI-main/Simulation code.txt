@@ -1,0 +1,70 @@
+// Smart Irrigation Simulation (Serial-only)
+// Prints a URL that can be copy-pasted into a browser
+// Fixed: randomSeed + stable unique ID generation
+
+int pumpPin = 8;
+int soilMoistureValue = 0;
+float temperature = 0.0;
+
+// Humidity prediction model
+float predictHumidity(float temp, int soilMoisture) {
+  float a = 0.8;
+  float b = 0.002;
+  float c = -5.3;
+  return (a * temp) + (b * soilMoisture) + c;
+}
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(pumpPin, OUTPUT);
+
+  // 🔴 CRITICAL FIX: Seed random generator
+  randomSeed(analogRead(A0));
+
+  Serial.println("Smart Irrigation + Predicted Humidity Mode Started (Serial-only)");
+}
+
+void loop() {
+
+  // Simulated sensor values (change every loop)
+  soilMoistureValue = random(300, 700);   // ADC value
+  temperature = random(25, 45);           // °C
+
+  float humidity = predictHumidity(temperature, soilMoistureValue);
+
+  // Convert soil moisture ADC to percentage
+  int moisturePercent = map(soilMoistureValue, 0, 1023, 0, 100);
+
+  // Google Apps Script Web App URL
+  String webAppUrl = " ";
+    
+    
+    // ✅ Stable unique ID (no millis dependency)
+  String idStr = "ID_" + String(random(100000, 999999));
+
+  // Build request URL
+  String url = webAppUrl +
+               "?moisture=" + String(moisturePercent) +
+               "&temp=" + String(temperature, 2) +
+               "&hum=" + String(humidity, 2) +
+               "&id=" + idStr;
+
+  // Print sensor values
+  Serial.println("---- Sensor Reading ----");
+  Serial.print("Soil ADC: ");
+  Serial.print(soilMoistureValue);
+  Serial.print("  Moisture%: ");
+  Serial.print(moisturePercent);
+  Serial.print("  Temp: ");
+  Serial.print(temperature, 2);
+  Serial.print("  Humidity(pred): ");
+  Serial.println(humidity, 2);
+
+  // Print request URL
+  Serial.println("Request URL (copy and paste in browser):");
+  Serial.println(url);
+  Serial.println("------------------------\n");
+
+  // Delay between readings
+  delay(5000);
+}
