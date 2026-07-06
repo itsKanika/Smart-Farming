@@ -28,6 +28,9 @@ and determines:
 - How long the pump should run
 
 ---
+<img width="701" height="388" alt="Screenshot 2026-07-06 at 4 17 00 PM" src="https://github.com/user-attachments/assets/ddd4274e-6a93-42bb-9ead-ad9ea3da4aa2" />
+<img width="1028" height="798" alt="image" src="https://github.com/user-attachments/assets/fcd7510e-afb9-4613-b154-6c6286d1d108" />
+<img width="1538" height="728" alt="image" src="https://github.com/user-attachments/assets/36b2cf93-7055-4bae-9a1c-e799fcd044f2" />
 
 # 🧠 AI Decision Engine
 
