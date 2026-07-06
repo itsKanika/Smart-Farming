@@ -31,7 +31,7 @@ and determines:
 <img width="701" height="388" alt="Screenshot 2026-07-06 at 4 17 00 PM" src="https://github.com/user-attachments/assets/ddd4274e-6a93-42bb-9ead-ad9ea3da4aa2" />
 <img width="701" height="398" alt="image" src="https://github.com/user-attachments/assets/fcd7510e-afb9-4613-b154-6c6286d1d108" />
 <img width="720" height="558" alt="image" src="https://github.com/user-attachments/assets/36b2cf93-7055-4bae-9a1c-e799fcd044f2" />
-<img width="380" height="360" alt="WhatsApp Image 2026-07-06 at 4 45 58 PM" src="https://github.com/user-attachments/assets/f7200806-ebea-4085-9164-e904cb0cedf6" />
+<img width="900" height="760" alt="WhatsApp Image 2026-07-06 at 4 45 58 PM" src="https://github.com/user-attachments/assets/452da9b6-7b93-40ce-9fe8-9f80326f4aee" />
 
 <img width="901" height="724" alt="WhatsApp Image 2025-11-06 at 12 25 08 PM" src="https://github.com/user-attachments/assets/f444c3ba-e6ba-446b-a0ff-dedb2e74e6bc" />
 
