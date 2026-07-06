@@ -31,6 +31,7 @@ and determines:
 <img width="701" height="388" alt="Screenshot 2026-07-06 at 4 17 00 PM" src="https://github.com/user-attachments/assets/ddd4274e-6a93-42bb-9ead-ad9ea3da4aa2" />
 <img width="701" height="598" alt="image" src="https://github.com/user-attachments/assets/fcd7510e-afb9-4613-b154-6c6286d1d108" />
 <img width="701" height="528" alt="image" src="https://github.com/user-attachments/assets/36b2cf93-7055-4bae-9a1c-e799fcd044f2" />
+<img width="901" height="312" alt="image" src="https://github.com/user-attachments/assets/e8fe33a5-a5eb-4c0e-91ac-b60b57e8da56" />
 
 # 🧠 AI Decision Engine
 
