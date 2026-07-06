@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Irrigation System</title>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">🌱 Smart Irrigation</div>
+  <ul>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#dashboard">Dashboard</a></li>
+    <li><a href="#how">How It Works</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+</nav>
+
+<!-- OVERVIEW -->
+<section id="overview" class="overview">
+  <div class="container">
+    <h1>AI-Powered Smart Irrigation System</h1>
+
+    <p class="lead">
+      A modern irrigation decision platform that combines real-time sensor data
+      with artificial intelligence to optimize water usage and protect crop health.
+    </p>
+
+    <div class="overview-grid">
+      <div class="overview-card">💧 Monitor soil moisture continuously</div>
+      <div class="overview-card">🌡️ Understand environmental conditions</div>
+      <div class="overview-card">🧠 Let AI reason within safe thresholds</div>
+      <div class="overview-card">🚰 Prevent over-irrigation and wastage</div>
+      <div class="overview-card">📊 Make decisions transparent and explainable</div>
+      <div class="overview-card">🌍 Support sustainable agriculture practices</div>
+    </div>
+  </div>
+</section>
+
+<!-- DASHBOARD (allowed to extend beyond one screen) -->
+<section id="dashboard" class="dashboard">
+  <div class="container">
+    <h2>📊 Live Field Dashboard</h2>
+
+    <p class="section-intro">
+      This dashboard displays real-time sensor readings along with AI-generated
+      irrigation decisions and explanations.
+    </p>
+
+    <div class="status-banner" id="fieldStatus">
+      Field Status: --
+    </div>
+
+    <div class="sensor-grid">
+      <div class="card">
+        <h3>💧 Soil Moisture</h3>
+        <p id="moistureValue">--</p>
+      </div>
+      <div class="card">
+        <h3>🌡️ Temperature</h3>
+        <p id="tempValue">--</p>
+      </div>
+    </div>
+
+    <div class="card decision-card">
+      <h3>🚰 Irrigation Decision</h3>
+      <p id="pumpDecision" class="pump">--</p>
+      <p id="duration">--</p>
+    </div>
+
+    <div class="card explanation-card">
+      <h3>🧠 AI Explanation</h3>
+      <p id="justification">--</p>
+    </div>
+
+    <button class="analyze-btn" onclick="loadData()">Analyze Field</button>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="how" class="how">
+  <div class="container">
+    <h2>⚙️ How It Works</h2>
+
+    <div class="how-cards">
+      <div class="how-card">
+        <h4>🌱 Data Collection</h4>
+        <p>
+          Soil moisture and temperature data are collected continuously
+          and stored in a centralized data source.
+        </p>
+      </div>
+
+      <div class="how-card">
+        <h4>🧠 AI Reasoning</h4>
+        <p>
+          Gemini AI analyzes the data using predefined agricultural rules
+          and environmental context.
+        </p>
+      </div>
+
+      <div class="how-card">
+        <h4>🚰 Decision Making</h4>
+        <p>
+          Based on analysis, the system decides whether irrigation is required
+          and calculates the optimal duration.
+        </p>
+      </div>
+
+      <div class="how-card">
+        <h4>📊 Explainable Output</h4>
+        <p>
+          Every decision is displayed with a clear justification so users
+          understand why it was taken.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+  <div class="container">
+    <h2>🌱 About This Project</h2>
+
+    <p>
+      🌍 Agriculture consumes a significant portion of the world’s freshwater,
+      yet irrigation decisions are often made using outdated, fixed schedules.
+      This approach frequently leads to overwatering, water wastage, and
+      unnecessary stress on crops.
+    </p>
+
+<br>
+
+    <p>
+      ⚡ <strong>Real-Time Intelligence:</strong> This system replaces traditional
+      irrigation schedules with dynamic monitoring, utilizing live soil moisture
+      and temperature data to understand the exact state of the field at any moment.
+    </p>
+
+<br>
+
+    <p>
+      🧠 <strong>Powered by Gemini AI:</strong> The decision engine leverages
+      Google’s Gemini AI to reason within safe agricultural boundaries, ensuring
+      that water usage is optimized without risking plant health.
+    </p>
+
+<br>
+
+    <p>
+      🔍 <strong>Transparent Decision Making:</strong> Unlike conventional
+      “black-box” automation systems, this platform provides clear,
+      natural-language explanations for every irrigation decision, helping
+      users understand why the pump is turned ON or OFF.
+    </p>
+
+<br>
+
+    <p>
+      👩‍🌾 <strong>Farmer-Centric Design:</strong> A simplified, human-friendly
+      dashboard hides the complex backend logic, making advanced data analytics
+      and AI-driven insights accessible even to non-technical farmers.
+    </p>
+
+   <br>
+
+    <p>
+      🌱 <strong>Sustainable & Scalable:</strong> The architecture is designed
+      to minimize global freshwater waste while remaining modular and scalable
+      for future integrations of additional smart-farming sensors and data sources.
+    </p>
+
+    <br>
+
+    <p>
+      📡 Overall, this project demonstrates how explainable artificial
+      intelligence can be responsibly applied to agriculture, bridging the gap
+      between raw sensor data and meaningful, actionable decisions.
+    </p>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
